@@ -1,0 +1,17 @@
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; /* Ширина полосы прокрутки */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Цвет фона трека */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Цвет полосы прокрутки */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Цвет полосы прокрутки при наведении */
+}

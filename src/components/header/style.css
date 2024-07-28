@@ -1,0 +1,64 @@
+/* style.css */
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Высота экрана */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--header-bg);
+  background-image: url('src/img/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: var(--header-text);
+}
+
+.header__wrapper {
+  position: relative;
+  z-index: 2; /* Повысьте индекс, чтобы текст находился над фоном */
+  padding: 0 15px;
+  max-width: 660px;
+}
+
+.header__title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.header__title strong {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.header__title em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.header__text {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.333;
+}
+
+.header__text p + p {
+  margin-top: 0.5em;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Для затемнения фона под текстом */
